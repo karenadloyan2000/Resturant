@@ -15,6 +15,14 @@ $(".mobile-menu").children().eq(0).click(function (){
         500
     );
 })
+$(".dasetop-menu").children().eq(0).click(function (){
+    $('html, body').animate(
+        {
+            scrollTop:0
+        },
+        500
+    );
+})
 $(".about-menu").click(function (){
 
     $('html, body').animate(

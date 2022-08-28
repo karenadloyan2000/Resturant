@@ -21,10 +21,12 @@ header{
     position: absolute;
     top: 42px;
 }
+
 .dasetop-menu>img{
     width: 161px;
     height: 20px;
     object-fit: cover;
+    cursor: pointer;
 }
 .menu-dasketop>li>a{
     font-family: var(--font-family);

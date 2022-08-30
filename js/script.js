@@ -123,3 +123,6 @@ $(window).scroll(function (x) {
         }
     }
 })
+
+
+consoel.log(Node.baseURI)
